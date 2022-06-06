@@ -6,3 +6,12 @@ body {
   max-width: 1500px;
   margin: 0 auto;
 }
+
+.dark {
+  background-color: $dark;
+  height: 100%;
+}
+
+hr {
+  margin-bottom: 30px;
+}

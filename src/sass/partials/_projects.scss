@@ -1,0 +1,56 @@
+.projects {
+  &__flex {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    @media screen and (min-width: 1200px) {
+      margin: 150px 0;
+      gap: 50px;
+    }
+    &--item {
+      max-width: 300px;
+      margin: 0 auto 50px;
+      @media screen and (min-width: 1200px) {
+        max-width: 390px;
+      }
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  &__number {
+    margin-top: -30px;
+    color: $accent;
+    font-size: 130px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media screen and (min-width: 1000px) {
+      height: 175px;
+    }
+  }
+  &__image {
+    width: 100%;
+    background-color: $light;
+    margin-bottom: 40px;
+    &--img {
+      width: 260px;
+      height: 260px;
+      object-fit: cover;
+      object-position: right top;
+      padding: 30px 25px 100px;
+      @media screen and (min-width: 1200px) {
+        width: 340px;
+        height: 340px;
+      }
+    }
+  }
+}
