@@ -1,6 +1,7 @@
 import sp2 from "../../images/sp2.jpg";
 import jsfca from "../../images/jsfca.jpg";
 import pe2 from "../../images/pe2.jpg";
+import { NavLink } from "react-router-dom";
 
 export default function Projects() {
   return (
@@ -90,6 +91,9 @@ export default function Projects() {
             <hr></hr>
           </div>
         </div>
+        <NavLink to="/">
+          <button className="backtohome">Back to home</button>
+        </NavLink>
       </div>
     </div>
   );

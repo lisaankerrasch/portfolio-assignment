@@ -23,8 +23,12 @@ export default function Index() {
           </NavLink>
         </div>
         <div className="index__flex--3">
-          <img className="icon" src={email} alt="email link"></img>
-          <img className="icon" src={instagram} alt="instagram link"></img>
+          <a href="mailto:hello@xitoh.com">
+            <img className="icon" src={email} alt="email link"></img>
+          </a>
+          <a href="https://www.instagram.com/x.itoh">
+            <img className="icon" src={instagram} alt="instagram link"></img>
+          </a>
         </div>
       </div>
     </div>

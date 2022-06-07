@@ -6,7 +6,7 @@
     justify-content: space-between;
     gap: 20px;
     @media screen and (min-width: 1200px) {
-      margin: 150px 0;
+      margin: 150px 0 50px;
       gap: 50px;
     }
     &--item {
@@ -14,6 +14,7 @@
       margin: 0 auto 50px;
       @media screen and (min-width: 1200px) {
         max-width: 390px;
+        margin: 0 0 50px;
       }
     }
   }
@@ -53,4 +54,20 @@
       }
     }
   }
+}
+
+.backtohome {
+  font-family: $primary-font;
+  color: $dark;
+  border: none;
+  background-color: $accent;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.backtohome:hover {
+  background-color: #dcb8e0;
 }
