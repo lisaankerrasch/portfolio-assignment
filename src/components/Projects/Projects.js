@@ -12,6 +12,7 @@ export default function Projects() {
           <div className="projects__flex--item">
             <div className="projects__image">
               <img
+                id="firstImg"
                 className="projects__image--img"
                 src={sp2}
                 alt="screenshot of semester project website"
