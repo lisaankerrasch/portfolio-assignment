@@ -1,7 +1,7 @@
-import sp2 from "../../images/sp2.jpg";
-import jsfca from "../../images/jsfca.jpg";
-import pe2 from "../../images/pe2.jpg";
 import { NavLink } from "react-router-dom";
+import Image1 from "../images/Image1";
+import Image2 from "../images/Image2";
+import Image3 from "../images/Image3";
 
 export default function Projects() {
   return (
@@ -11,12 +11,7 @@ export default function Projects() {
         <div className="projects__flex">
           <div className="projects__flex--item">
             <div className="projects__image">
-              <img
-                id="firstImg"
-                className="projects__image--img"
-                src={sp2}
-                alt="screenshot of semester project website"
-              ></img>
+              <Image1 />
             </div>
             <hr></hr>
             <div className="projects__content">
@@ -40,11 +35,7 @@ export default function Projects() {
           </div>
           <div className="projects__flex--item">
             <div className="projects__image">
-              <img
-                className="projects__image--img"
-                src={jsfca}
-                alt="screenshot of semester project website"
-              ></img>
+              <Image2 />
             </div>
             <hr></hr>
             <div className="projects__content">
@@ -65,11 +56,7 @@ export default function Projects() {
           </div>
           <div className="projects__flex--item">
             <div className="projects__image">
-              <img
-                className="projects__image--img"
-                src={pe2}
-                alt="screenshot of semester project website"
-              ></img>
+              <Image3 />
             </div>
             <hr></hr>
             <div className="projects__content">

@@ -48,6 +48,7 @@
       object-fit: cover;
       object-position: right top;
       padding: 30px 25px 100px;
+      cursor: pointer;
       @media screen and (min-width: 1200px) {
         width: 340px;
         height: 340px;
@@ -70,4 +71,25 @@
 
 .backtohome:hover {
   background-color: #dcb8e0;
+}
+
+.dialog {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  padding-bottom: 100px; /* Location of the box */
+
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%; /* Full width */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+  &__img {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+  }
 }
