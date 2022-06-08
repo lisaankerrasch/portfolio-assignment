@@ -41,7 +41,7 @@ export default function Projects() {
             <div className="projects__content">
               <div className="projects__number">2</div>
               <div className="projects__text">
-                <h5>js frameworks CA</h5>
+                <h5>JS frameworks CA</h5>
                 <p>Created with React.js. Public API with make-up products.</p>
                 <a
                   className="link"
